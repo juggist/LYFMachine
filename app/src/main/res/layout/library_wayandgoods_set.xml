@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/wayAndGoods_commit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/library_commit_all" />
+
+            <Button
+                android:id="@+id/wayAndGoods_addAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/library_add_all" />
+
+            <Button
+                android:id="@+id/wayAndGoods_template"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/library_template" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/MainGridViewScrollLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <com.icoffice.library.util.LibraryGridView
+                        android:id="@+id/wayAndGoods_gv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="50dp"
+                        android:horizontalSpacing="2dp"
+                        android:numColumns="3"
+                        android:verticalSpacing="2dp" >
+                    </com.icoffice.library.util.LibraryGridView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp" />
+                </LinearLayout>
+            </ScrollView>
+
+            <RelativeLayout
+                android:id="@+id/library_wayandgoods_set_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/dialog_bg"
+                    android:gravity="center"
+                    android:text="有数据未提交\n请再次点击“全部提交”按钮"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wayAndGoods_item"
+        android:layout_width="400dp"
+        android:layout_height="900dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical" >
+
+            <com.icoffice.library.sortlist.ClearEditText
+                android:id="@+id/filter_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/library_search_bar_edit_selector"
+                android:drawableLeft="@drawable/library_search_bar_icon_normal"
+                android:hint="请输入关键字"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ListView
+                    android:id="@+id/country_lvcountry"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:divider="@null" />
+
+                <TextView
+                    android:id="@+id/dialog"
+                    android:layout_width="80.0dip"
+                    android:layout_height="80.0dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#ffffffff"
+                    android:textSize="30.0dip"
+                    android:visibility="invisible" />
+
+                <com.icoffice.library.sortlist.SideBar
+                    android:id="@+id/sidrbar"
+                    android:layout_width="30.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right|center" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/wayAndGoods_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/library_cancle" />
+    </LinearLayout>
+
+</RelativeLayout>

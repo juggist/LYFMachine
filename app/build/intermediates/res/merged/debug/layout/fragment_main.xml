@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shop_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1102dp"
+        android:layout_marginTop="114dp" >
+
+        <include layout="@layout/fragment_shop_menu" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_main_contain"
+            android:layout_width="590dp"
+            android:layout_height="910dp"
+            android:layout_toRightOf="@+id/fragment_shop_ll_menu" >
+        </RelativeLayout>
+
+        <include layout="@layout/fragment_shop_theme" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/fragment_banner" />
+
+    <include layout="@layout/fragment_bottom" />
+
+</FrameLayout>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="250dp" >
+
+    <TextView
+        android:id="@+id/library_machine_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="机器code:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/library_machine_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="机器mac:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/library_update_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="版本号为:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/library_factory_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="单片机编码为:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+          android:layout_marginTop="30dp"
+        android:id="@+id/library_software_btn_m_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/library_smc_bg"
+        android:padding="4dp"
+        android:text="获取机器编码"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/library_m_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="机器编码为:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

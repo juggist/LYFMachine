@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adapter_exchangedetail_goodsPic_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:background="@color/shop_drink"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" >
+
+        <ImageView
+            android:id="@+id/adapter_exchangedetail_goodsPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/adapter_exchangedetail_sold_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/exchange_tip"
+            android:gravity="center"
+            android:textColor="@color/shop_arrow" />
+
+        <ImageView
+            android:id="@+id/adapter_exchangedetail_sold_finish_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shop_sold_finish" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/adapter_exchangedetail_goodsName_bg"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/adapter_exchangedetail_goodsName_CN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/shop_arrow" />
+
+        <TextView
+            android:id="@+id/adapter_exchangedetail_goodsName_EN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/shop_arrow" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/exchange_line"
+        android:scaleType="fitXY" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/adapter_exchangedetail_soldStatus_bg"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/adapter_exchangedetail_soldStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="118dp"
+    android:layout_height="118dp"
+    android:background="@drawable/ad_smallpic_bg" >
+    <ImageView
+        android:id="@+id/adapter_ad_smallPic"
+        android:layout_width="106dp"
+        android:layout_height="106dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

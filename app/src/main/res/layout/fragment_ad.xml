@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fragment_ad_contain_bigPic"
+        android:layout_width="match_parent"
+        android:layout_height="832dp"
+        android:layout_marginTop="114dp" >
+
+        <SurfaceView
+            android:id="@+id/fragment_ad_sfview"
+            android:layout_width="672dp"
+            android:layout_height="378dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="234dp" />
+
+        <ImageView
+            android:id="@+id/fragment_ad_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ad_media_bg" />
+
+        <ImageView
+            android:id="@+id/fragment_ad_iv_bigPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ad_small_bg"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:id="@+id/btn_door_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关门" />
+
+            <Button
+                android:id="@+id/btn_door_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开门" />
+
+            <Button
+                android:id="@+id/btn_ev_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关云台" />
+
+            <Button
+                android:id="@+id/btn_ev_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开云台" />
+
+            <Button
+                android:id="@+id/btn_track_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="非履带" />
+
+            <Button
+                android:id="@+id/btn_track_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="履带" />
+
+            <Button
+                android:id="@+id/btn_outgoods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出货" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <include layout="@layout/fragment_banner" />
+
+    <LinearLayout
+        android:id="@+id/fragment_ad_contain_smallPic"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_below="@+id/fragment_ad_contain_bigPic"
+        android:background="@color/ad_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fragment_ad_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/ad_btn_left" />
+
+        <GridView
+            android:id="@+id/fragment_ad_gv"
+            android:layout_width="530dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:horizontalSpacing="8dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:verticalSpacing="8dp" >
+        </GridView>
+
+        <Button
+            android:id="@+id/fragment_ad_btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/ad_btn_right" />
+
+        <ImageView
+            android:id="@+id/fragment_ad_iv_more"
+            android:layout_width="104dp"
+            android:layout_height="226dp"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/ad_btn_more" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_ad_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="测试版本"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="40sp" />
+
+    <include layout="@layout/fragment_bottom" />
+
+</RelativeLayout>

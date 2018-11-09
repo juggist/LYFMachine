@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_shop_typechoose"
+    android:layout_width="507dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fragment_shop_tip_CN"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="@string/buy_tip_CN"
+        android:textColor="@color/shop_info_normal"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/fragment_shop_tip_EN"
+        android:layout_width="match_parent"
+		android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_tip_EN"
+        android:textColor="@color/shop_info_normal"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_ll_cash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fragment_shop_cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_pay_cash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_cash_CN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="18sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_cash_EN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="10sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_ll_icoffice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fragment_shop_icoffice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_pay_icoffice" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_icoffice_CN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="18sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_icoffice_EN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="8sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_ll_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fragment_shop_wechat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_pay_wechat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_wechat_CN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="18sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_wechat_EN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="10sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_ll_alipay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fragment_shop_alipay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_pay_alipay" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_alipay_CN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="18sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_alipay_EN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="10sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_ll_yee"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fragment_shop_yee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_pay_yee" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_yee_CN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="18sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_yee_EN"
+                android:textColor="@color/shop_info_normal"
+                android:textSize="10sp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

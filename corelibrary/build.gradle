@@ -1,0 +1,74 @@
+apply plugin: 'com.android.library'
+apply from: "$rootProject.projectDir/gradle/ice.gradle"
+
+project.slice.output = project.file("${project.buildDir}/generated/source/ice")
+
+slice {
+    java {
+        set1 {
+            include = ["${projectDir}/src/main/slice"]
+            srcDir = 'src/main'
+        }
+    }
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            moduleName "myNativeLib"
+            ldLibs "log", "z", "m"
+            abiFilters "armeabi", "armeabi-v7a", "x86"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java', project.slice.output]
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:21.0.2'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/SonicWaveNFC_Android.jar')
+    compile files('libs/universal-image-loader-1.8.6-with-sources.jar')
+    compile files('libs/glacier2-3.5.1.jar')
+    compile files('libs/ice-3.6.3.jar')
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/commons-beanutils-1.7.0.jar')
+    compile files('libs/commons-lang-2.5.jar')
+    compile files('libs/commons-logging.jar')
+    compile files('libs/ezmorph-1.0.3.jar')
+    compile files('libs/commons-httpclient-3.0.jar')
+    compile files('libs/commons-codec-1.6.jar')
+    compile files('libs/fluent-hc-4.2.5.jar')
+    compile files('libs/commons-logging-1.1.1.jar')
+    compile files('libs/httpclient-4.2.5.jar')
+    compile files('libs/httpclient-cache-4.2.5.jar')
+    compile files('libs/httpcore-4.2.4.jar')
+    compile files('libs/httpmime-4.2.5.jar')
+    compile files('libs/json-lib-2.4-jdk15.jar')
+    compile files('libs/zxing.jar')
+}

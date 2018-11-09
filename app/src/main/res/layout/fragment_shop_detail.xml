@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_shop_rl_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridView
+        android:id="@+id/fragment_shop_gv"
+        android:layout_width="530dp"
+        android:layout_height="690dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/gv_item_shape"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:paddingLeft="0.5dp"
+        android:paddingRight="0.5dp"
+        android:verticalSpacing="1dp" >
+    </GridView>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_up_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fragment_shop_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_arrow_up" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shop_up"
+                android:textColor="@color/shop_arrow"
+                android:textSize="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="68dp"
+            android:id="@+id/fragment_shop_down_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/fragment_shop_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shop_arrow_down" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shop_down"
+                android:textColor="@color/shop_arrow"
+                android:textSize="8dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/wayAndGoods_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#726a62" >
+
+        <LinearLayout
+            android:id="@+id/wayAndGoods_frist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/wayAndGoods_set_iv"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.icoffice.library.widget.MarqueeText
+                            android:id="@+id/wayAndGoods_set_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="价格:"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <com.icoffice.library.widget.MarqueeText
+                            android:id="@+id/wayAndGoods_set_g_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="本地库存:"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <com.icoffice.library.widget.MarqueeText
+                            android:id="@+id/wayAndGoods_set_storeNum"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="线上库存:"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <com.icoffice.library.widget.MarqueeText
+                            android:id="@+id/wayAndGoods_set_server_storeNum"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/wayAndGoods_set_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/library_symbol_add"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/wayAndGoods_set_reduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/library_symbol_minus"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/wayAndGoods_set_commit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/library_add" />
+
+            <Button
+                android:id="@+id/wayAndGoods_set_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/library_item_sales_return" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wayAndGoods_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/wayAndGoods_commit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/library_choose_goods" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

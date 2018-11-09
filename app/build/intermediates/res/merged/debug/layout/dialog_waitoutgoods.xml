@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:background="@drawable/dialog_line" />
+
+        <TextView
+             android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            android:text="@string/dialog_waitoutgoods_01"
+            android:textSize="16sp" />
+
+        <TextView
+             android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp"
+            android:text="@string/dialog_waitoutgoods_02"
+            android:textSize="60sp" />
+
+        <ImageButton
+            android:id="@+id/dialog_ibtn_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/dialog_exit" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+             android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/dialog_waitoutgoods_03"
+            android:textSize="20sp" />
+
+        <TextView
+             android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="86dp"
+            android:text="@string/dialog_waitoutgoods_04"
+            android:textSize="20sp" />
+
+        <TextView
+             android:textColor="@android:color/white"
+            android:id="@+id/dialog_tv_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

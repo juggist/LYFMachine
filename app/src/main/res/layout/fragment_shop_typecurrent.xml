@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_shop_typecurrent"
+    android:layout_width="507dp"
+    android:layout_height="339dp"
+   android:layout_gravity="center_horizontal"
+    android:background="@drawable/shop_paytype_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/pay_shopping_cart" />
+
+        <TextView
+            android:id="@+id/fragment_shop_currenttype_tv_payname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/shop_info_normal"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/paytype_cash" />
+
+        <include layout="@layout/paytype_icoffice" />
+
+        <include layout="@layout/paytype_wechat" />
+
+        <include layout="@layout/paytype_alipay" />
+
+        <include layout="@layout/pay_again" />
+    </FrameLayout>
+
+</LinearLayout>

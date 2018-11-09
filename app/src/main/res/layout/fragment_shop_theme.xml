@@ -1,0 +1,290 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="290dp"
+    android:layout_alignParentBottom="true" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/shop_desk" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/shop_coffe" />
+
+    <RelativeLayout
+        android:layout_width="125dp"
+        android:layout_height="77dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/return_home"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_theme_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null" >
+
+                <com.icoffice.library.widget.LedTextView
+                    android:id="@+id/clock_tv_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/time_bg_01"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.icoffice.library.widget.LedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="35dp"
+                    android:text="@string/time_bg"
+                    android:textColor="#33FFFF00"
+                    android:textSize="28sp" />
+
+                <com.icoffice.library.widget.LedTextView
+                    android:id="@+id/clock_tv_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="35dp"
+                    android:shadowColor="#FFFF00"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:textColor="#FFFF00"
+                    android:textSize="28sp" />
+                <com.icoffice.library.widget.LedTextView
+                    android:id="@+id/clock_tv_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="35dp"
+                    android:shadowColor="#FFFF00"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:textColor="#FFFF00"
+                    android:visibility="gone"
+                    android:text="  :  "
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@null" >
+
+                <com.icoffice.library.widget.LedTextView
+                    android:id="@+id/clock_tv_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/time_bg_01"
+                    android:textSize="12sp" />
+
+                <com.icoffice.library.widget.LedTextView
+                    android:id="@+id/clock_tv_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/time_bg_01"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_shop_theme_task"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null" >
+
+                <com.icoffice.library.widget.LedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/time_bg_01"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null" >
+
+                <com.icoffice.library.widget.LedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="35dp"
+                    android:text="@string/time_bg"
+                    android:textColor="#33FFFF00"
+                    android:textSize="28sp" />
+
+                <com.icoffice.library.widget.LedTextView
+                    android:id="@+id/return_task_tv_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="35dp"
+                    android:shadowColor="#FFFF00"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:textColor="#FFFF00"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@null" >
+
+                <com.icoffice.library.widget.LedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/time_bg_01"
+                    android:textSize="12sp" />
+
+                <com.icoffice.library.widget.LedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="28dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text="@string/time_task"
+                    android:textColor="@color/time_bg_01"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="68dp"
+                android:background="@drawable/shop_hook" />
+
+            <ImageView
+                android:id="@+id/fragment_shop_theme_iv_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/shop_buy" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="68dp"
+                android:background="@drawable/shop_hook" />
+
+            <ImageView
+                android:id="@+id/fragment_shop_theme_iv_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/shop_activity" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="68dp"
+                android:background="@drawable/shop_hook" />
+
+            <ImageView
+                android:id="@+id/fragment_shop_theme_iv_wechat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/shop_wechat" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:background="@drawable/shop_hook" />
+
+            <ImageView
+                android:id="@+id/fragment_shop_theme_iv_exchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/shop_exchange" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

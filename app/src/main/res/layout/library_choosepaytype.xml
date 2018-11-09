@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="250dp" 
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/library_choosepaytype_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="现金支付"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/library_choosepaytype_icoffice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="客非卡支付"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/library_choosepaytype_wechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="微信支付"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/library_choosepaytype_alipay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="支付宝支付"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+     <CheckBox
+        android:id="@+id/library_choosepaytype_eyypay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="易支付"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+    
+
+    <Button
+        android:id="@+id/library_choosepaytype_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:text="提交"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

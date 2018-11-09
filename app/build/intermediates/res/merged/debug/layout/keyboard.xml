@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ibtn_01" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_02" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_03" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ibtn_04" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_05" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_06" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ibtn_07" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_08" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_09" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ibtn_00" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_delete" />
+
+        <ImageButton
+            android:id="@+id/keyboard_ibtn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ibtn_clear" />
+    </LinearLayout>
+
+</LinearLayout>

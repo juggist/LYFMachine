@@ -1,0 +1,586 @@
+[
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_add_all.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_add_all.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/commit_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/commit_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_05_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_05_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/dialog_exit.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/dialog_exit.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/empty_detail.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/empty_detail.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/exchange_line.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/exchange_line.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_09_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_09_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_add.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_add.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_success_btn_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_success_btn_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_item_sales_return.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_item_sales_return.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_pay_wechat.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_pay_wechat.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_menu.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_menu.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ad_smallpic_recruit.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_smallpic_recruit.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_paytype_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_paytype_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_06_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_06_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_cancle.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_cancle.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/pay_shopping_cart.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/pay_shopping_cart.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_all_big.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_all_big.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_01_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_01_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/wechat_pic.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/wechat_pic.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_05_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_05_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ad_bottom.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_bottom.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/exchange_quit_btn.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/exchange_quit_btn.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ad_btn_right.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_btn_right.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_drink_big.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_drink_big.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/white_smoke.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/white_smoke.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_pay_alipay.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_pay_alipay.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_coffe.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_coffe.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_detail_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_detail_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_bg_transate.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_bg_transate.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_item_commit.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_item_commit.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_choose_goods.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_choose_goods.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_longpressed_holo.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ad_btn_left.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_btn_left.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/empty.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/empty.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_buy_line.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_buy_line.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_emotionstore_progresscancelbtn.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_emotionstore_progresscancelbtn.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/paytype_pos.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/paytype_pos.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_v_banner.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_v_banner.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_arrow_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_arrow_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_00_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_00_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/coffice_logo.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/coffice_logo.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_delete_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_delete_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_drink_small.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_drink_small.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_02_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_02_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ad_smallpic_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_smallpic_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_food_small.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_food_small.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_commit_all.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_commit_all.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/exchange_tip.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/exchange_tip.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ad_banner.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_banner.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_06_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_06_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_activity.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_activity.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_pay_icoffice.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_pay_icoffice.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/icoffice_logo.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/icoffice_logo.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_08_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_08_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/paytype_cash.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/paytype_cash.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_clear_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_clear_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_off.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_off.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/dialog_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/dialog_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_search_bar_icon_normal.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_search_bar_icon_normal.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_success_01.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_success_01.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_09_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_09_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_buy.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_buy.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_07_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_07_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_change_paytype.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_change_paytype.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_all_small.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_all_small.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_02_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_02_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_03_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_03_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_sold_finish.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_sold_finish.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ad_media_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_media_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_wechat.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_wechat.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_symbol_add.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_symbol_add.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/paytype_icoffice.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/paytype_icoffice.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/wechat_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/wechat_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_03_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_03_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_focused_holo.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_arrow_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_arrow_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/paytype_alipay.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/paytype_alipay.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/commit_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/commit_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_template.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_template.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/dialog_line.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/dialog_line.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_exchange.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_exchange.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_food_big.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_food_big.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_08_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_08_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_on.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_on.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_07_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_07_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_clear_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_clear_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_delete_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_delete_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_share_pack_holo_light.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/dialog_wait.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/dialog_wait.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_ensure.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_ensure.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_symbol_minus.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_symbol_minus.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_04_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_04_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/goods_empty.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/goods_empty.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_desk.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_desk.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_00_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_00_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_smc_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_smc_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/return_home.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/return_home.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_pay_cash.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_pay_cash.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/library_commit.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/library_commit.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_others_big.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_others_big.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_hook.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_hook.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/buy_back.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/buy_back.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_01_down.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_01_down.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/ibtn_04_up.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ibtn_04_up.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_others_small.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_others_small.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_bg.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_bg.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_pay_yee.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_pay_yee.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_erweima.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_erweima.png"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi/shop_menu.png",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/shop_menu.png"
+    }
+]

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/library_detail_top"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/library_main_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/black"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/library_main_menu"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/library_menu_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/library_menu"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/library_menu_show"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/library_menu_smc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="单片机同步"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_goodsAndWay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="补货管理"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_way"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="最大补货量"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="选货管理"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_crate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="选择货柜"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_machine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="机器设置"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="软件信息"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_compressor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="压缩机设置"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_paytype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:text="选择支付方式"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/library_menu_show"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/library_menu_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:text="返回购买"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/library_menu_killapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/library_menu_show"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:background="@null"
+                android:text="退出app"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,684 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start_bnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_bnt" >
+        </Button>
+
+        <Button
+            android:id="@+id/stop_bnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_bnt" >
+        </Button>
+
+        <TextView
+            android:id="@+id/activity_back_comdenser_nowTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/yunxing" />
+
+            <TextView
+                android:id="@+id/tingji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/tingji" />
+
+            <TextView
+                android:id="@+id/qidongchaoshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/qidongchaoshi" />
+
+            <TextView
+                android:id="@+id/zhileng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/zhileng" />
+
+            <TextView
+                android:id="@+id/hengwen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/hengwen" />
+
+            <TextView
+                android:id="@+id/chushang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/chushang" />
+
+            <TextView
+                android:id="@+id/guzhang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/guzhang" />
+
+            <TextView
+                android:id="@+id/hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/hot" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/shebei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/shebei" />
+
+            <TextView
+                android:id="@+id/yasuoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/yasuoji" />
+
+            <TextView
+                android:id="@+id/zhengfajifengshan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/zhengfajifengshan" />
+
+            <TextView
+                android:id="@+id/lengningqifengshan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/lengningqifengshan" />
+
+            <TextView
+                android:id="@+id/chushuangdianchifa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/chushuangdianchifa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/chaowen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/chaowen" />
+
+            <TextView
+                android:id="@+id/xiangti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/xiangti" />
+
+            <TextView
+                android:id="@+id/zhengfaqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/zhengfaqi" />
+
+            <TextView
+                android:id="@+id/lengningqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/lengningqi" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/kaiji_time" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_show_time_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/tv_star_time_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/tv_set_time_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/tv_star_time_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/tv_star_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/zhengfaqi_time" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/zhengfaqi_time_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/zhengfaqi_time_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/zhengfaqi_time_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/zhengfaqi_time_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/zhengfaqi_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/zhileng_wendu" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/zhileng_wendu_time_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/zhileng_wendu_time_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/zhileng_wendu_time_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/zhileng_wendu_time_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/zhileng_wendu_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/zhileng_huicha" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/zhileng_huicha_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/zhileng_huicha_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/zhileng_huicha_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/zhileng_huicha_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/zhileng_huicha_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/huashuang_wendu" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/huashuang_wendu_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/huashuang_wendu_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/huashuang_wendu_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/huashuang_wendu_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/huashuang_wendu_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/huashuang_time" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/huashuang_time_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/huashuang_time_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/huashuang_time_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/huashuang_time_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/huashuang_time_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/lengningqibaojing_wendu" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lengningqibaojing_wendu_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/lengningqibaojing_wendu_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/lengningqibaojing_wendu_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/lengningqibaojing_wendu_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/lengningqibaojing_wendu_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="@string/hot_wendu" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lengningqistar_wendu_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/lengningqistar_wendu_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left" >
+            </Button>
+
+            <TextView
+                android:id="@+id/lengningqistar_wendu_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" >
+            </TextView>
+
+            <Button
+                android:id="@+id/lengningqistar_wendu_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right" >
+            </Button>
+
+            <Button
+                android:id="@+id/lengningqistar_wendu_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_setting" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/hot_start_bnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/hot_start_bnt" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="@string/hot_wendu" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/hot_wendu_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" >
+        </TextView>
+
+        <Button
+            android:id="@+id/hot_wendu_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/left" >
+        </Button>
+
+        <TextView
+            android:id="@+id/hot_wendu_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" >
+        </TextView>
+
+        <Button
+            android:id="@+id/hot_wendu_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/right" >
+        </Button>
+
+        <Button
+            android:id="@+id/hot_wendu_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_setting" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="@string/hot_huicha" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/hothuicha_wendu_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" >
+        </TextView>
+
+        <Button
+            android:id="@+id/hothuicha_wendu_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/left" >
+        </Button>
+
+        <TextView
+            android:id="@+id/hothuicha_wendu_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" >
+        </TextView>
+
+        <Button
+            android:id="@+id/hothuicha_wendu_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/right" >
+        </Button>
+
+        <Button
+            android:id="@+id/hothuicha_wendu_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_setting" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="机器编码:" />
+
+        <EditText
+            android:maxLength="20"
+            android:id="@+id/library_registermachine_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="请输入机器编码:"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/library_registermachine_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:background="@null"
+        android:text="注册"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

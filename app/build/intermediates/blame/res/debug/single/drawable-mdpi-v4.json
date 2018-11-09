@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ad_bg.jpg",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_bg.jpg"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ad_small_bg.jpg",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_small_bg.jpg"
+    },
+    {
+        "merged": "/Users/lufeisong/Desktop/LYFProject/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ad_btn_more.jpg",
+        "source": "/Users/lufeisong/Desktop/LYFProject/app/src/main/res/drawable-mdpi/ad_btn_more.jpg"
+    }
+]

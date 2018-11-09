@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="clip_vertical"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/library_choose_crate_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="250dp"
+        android:text="饮料柜"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:layout_marginLeft="250dp"
+        android:id="@+id/library_choose_crate_drink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="小饮料柜"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:layout_marginLeft="250dp"
+        android:id="@+id/library_choose_crate_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="食品柜"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:layout_marginLeft="250dp"
+        android:id="@+id/library_choose_crate_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="格子柜"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+   <CheckBox
+        android:layout_marginLeft="250dp"
+        android:id="@+id/library_choose_crate_leiyun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="雷云峰柜"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+    <Button
+        android:layout_marginLeft="250dp"
+        android:id="@+id/library_crate_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:text="提交"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

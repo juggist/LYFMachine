@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_shop_contain_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:layout_gravity="bottom"
+     android:layout_alignParentBottom="true" 
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ad_bottom" />
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#73451b"
+        android:id="@+id/fragment_shop_version_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp" />
+
+</FrameLayout>

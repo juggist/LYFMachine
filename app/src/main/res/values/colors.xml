@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="ad_bg">#eebf22</color>
+    <color name="color_white">#FFFFFF</color> <!-- 白色 -->
+    <color name="gv_item_shape">#d1c8b6</color> <!-- item边线色 -->
+    <color name="shop_info_normal">#784620</color> <!-- 商品信息 正常 -->
+    <color name="shop_info_finish">#362e2b</color> <!-- 商品信息 售罄 -->
+    <color name="shop_arrow">#4e2519</color> <!-- 商品信息 售罄 -->
+    <color name="shop_drink">#b4c0d3</color> <!-- 商品信息 饮料 -->
+    <color name="shop_food">#f3e4c4</color> <!-- 商品信息 食品 -->
+    <color name="shop_others">#d2c5b5</color> <!-- 商品信息 其它 -->
+    <color name="shop_price_bg">#eeeeee</color> <!-- 商品信息 单价bg -->
+    <color name="time_bg_01">#ed7321</color> <!--  时间bg -->
+	<color name="time_bg_02">#433b3a</color> <!-- 时间bg -->
+	<color name="exchange_bg_01">#ff9c00</color> <!-- 兑换有库存bg -->
+	<color name="exchange_bg_02">#362e2b</color> <!-- 兑换无库存bg -->
+	<color name = "gary">#808080</color><!-- 灰色 -->
+</resources>

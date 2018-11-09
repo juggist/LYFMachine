@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shop_detail_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="108dp"
+            android:text="@string/exchange_title"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/fragment_exchange_et"
+            android:layout_width="356dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/exchange_edit_border"
+            android:paddingLeft="10dp"
+            android:maxLength="20"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+
+        <include layout="@layout/keyboard" />
+
+        <ImageButton
+            android:id="@+id/fragment_exchange_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/commit_ibtn" />
+    </LinearLayout>
+
+</LinearLayout>

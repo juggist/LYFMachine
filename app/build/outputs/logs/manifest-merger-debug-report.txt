@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:2:1-76:12
+	package
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:5:5-44
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [LYFProject:corelibrary:3.6.3] /Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/LYFProject/corelibrary/3.6.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:21.0.2] /Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.2] /Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:11:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_SUPERUSER
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.DISABLE_STATUS_BAR
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:14:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:16:22-70
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:17:22-70
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:19:5-85
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:19:22-82
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:22:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:24:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:26:22-65
+application
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:28:5-74:19
+MERGED from [LYFProject:corelibrary:3.6.3] /Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/LYFProject/corelibrary/3.6.3/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:21.0.2] /Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.2] /Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:32:9-41
+	android:supportsRtl
+		ADDED from [LYFProject:corelibrary:3.6.3] /Users/lufeisong/Desktop/LYFProject/app/build/intermediates/exploded-aar/LYFProject/corelibrary/3.6.3/AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:31:9-46
+	android:largeHeap
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:33:9-33
+	android:theme
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:34:9-40
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:29:9-48
+activity#com.icofficeapp.activity.MainActivity
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:35:9-47:20
+	android:screenOrientation
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:38:13-45
+	android:launchMode
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:39:13-44
+	android:configChanges
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:37:13-44
+	android:theme
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:41:13-71
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:36:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:45:27-74
+activity#com.icoffice.library.backactivity.BackstageActivity
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:51:9-54:20
+	android:theme
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:53:13-77
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:52:13-79
+receiver#com.icoffice.library.service.BootBroadcastReceiver
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:56:9-62:20
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:56:19-84
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.HOME
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:57:13-61:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:58:17-79
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:58:25-76
+category#android.intent.category.HOME
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:60:17-73
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:60:27-70
+receiver#com.icoffice.library.service.AppInstallReceiver
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:63:9-73:20
+	android:label
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:65:13-45
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:64:13-75
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED+android.intent.action.PACKAGE_REPLACED
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:66:13-72:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:67:17-78
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:67:25-75
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:68:17-81
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:68:25-78
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:69:17-80
+	android:name
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:69:25-77
+data
+ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:71:17-50
+	android:scheme
+		ADDED from /Users/lufeisong/Desktop/LYFProject/app/src/main/AndroidManifest.xml:71:23-47

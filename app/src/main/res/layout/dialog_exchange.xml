@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+
+    <RelativeLayout 
+        android:layout_width="500dp"
+        android:layout_height="800dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+        
+    <com.icofficeapp.widget.WaveView 
+        android:id="@+id/dialog_exchange_music_ani"
+        android:layout_width="wrap_content"
+        android:rotation="-90"
+         android:rotationY="180"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/dialog_exchange_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:src="@drawable/dialog_exchange_loading"
+       android:layout_marginLeft="200dp"
+       android:layout_marginBottom="130dp" />
+        
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>

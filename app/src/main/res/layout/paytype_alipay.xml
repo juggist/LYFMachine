@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/paytype_alipay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+  <!--   <include layout="@layout/paytype_tip" /> -->
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_price_01"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fragment_shop_currenttype_tv_goodsprice_alipay_CN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/shop_info_normal"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_price_02"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_price_03"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:id="@+id/fragment_shop_currenttype_tv_goodsprice_alipay_EN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/shop_info_normal"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_alipay_01"
+            android:textSize="12sp" />
+
+        <TextView
+             android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_alipay_02"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/paytype_alipay" />
+
+        <ImageButton
+            android:id="@+id/paytype_alipay_ibtn_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="right|bottom"
+            android:layout_marginBottom="35dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shop_change_paytype" >
+        </ImageButton>
+    </FrameLayout>
+
+</LinearLayout>

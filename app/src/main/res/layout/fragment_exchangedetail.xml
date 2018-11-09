@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shop_detail_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="48dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exchangedetail_01"
+                android:textColor="@color/shop_arrow"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchangedetail_rcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@null"
+                android:textColor="@color/shop_arrow"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exchangedetail_02"
+                android:textColor="@color/shop_arrow"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/fragment_exchangedetail_gv"
+            android:layout_width="530dp"
+            android:layout_height="460dp"
+            android:layout_marginTop="12dp"
+            android:horizontalSpacing="1dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:paddingLeft="0.5dp"
+            android:paddingRight="0.5dp"
+            android:verticalSpacing="1dp" >
+        </GridView>
+
+        <Button
+            android:id="@+id/fragment_exchangedetail_quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/exchange_quit_btn"
+            android:text="@string/exchangedetail_03"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/exchangedetail_04"
+            android:textColor="@color/shop_arrow"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/fragment_exchangedetail_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shop_arrow_up" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_up"
+                    android:textColor="@color/shop_arrow"
+                    android:textSize="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/fragment_exchangedetail_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shop_arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_down"
+                    android:textColor="@color/shop_arrow"
+                    android:textSize="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
